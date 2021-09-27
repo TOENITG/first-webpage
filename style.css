@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  background-color: rgb(231, 231, 231);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.content {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(168, 36, 82);
+  height: 400px;
+}
+
+header nav {
+  height: 4rem;
+}
+
+.meet-our-team {
+  background-color: white;
+  height: 600px;
+  text-align: center;
+  display: flex;
+}
+
+
+.gallery {
+  background-color: rgb(242, 242, 242);
+  height: 600px;
+}
+
+.contact-us {
+  background-color: rgb(182, 27, 80);
+  height: 600px;
+}
+
+footer {
+  background-color: rgb(39, 39, 39);
+  color: white;
+  height: 300px;
+}
+
+.copyright {
+  background-color: rgb(35, 35, 35);
+  text-align: center;
+  padding: 10px 0 10px 0;
+}
