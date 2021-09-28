@@ -2,9 +2,9 @@ body {
   margin: 0;
   background-color: rgb(231, 231, 231);
   display: flex;
+
   justify-content: center;
   align-items: center;
-
   color: rgba(0, 0, 0, 0.6);
 }
 
@@ -14,24 +14,59 @@ body {
 }
 
 header {
+  background-image: url("images/glitter-textured-dark-red-background-wallpaper-abstract-shining-light-curving-bending-feel-web-phone-137576355.jpg");
+  background-size: contain;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: rgb(168, 36, 82);
   height: 400px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 header nav {
   height: 4rem;
+  align-self: flex-start;
 }
 
-.meet-our-team {
+.content .meet-our-team {
+  align-self: center;
   background-color: white;
   height: 600px;
-  text-align: center;
   display: flex;
+
+  text-align: center;
+  flex-direction: column;
 }
 
+.content .meet-our-team hr {
+  width: 20%;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.team-members {
+  display: flex;
+  flex-direction: row;
+}
+
+.team-member img {
+  border-radius: 100rem;
+  width: 150px;
+  justify-content: space-around;
+}
+
+.team-member p {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+h4 {
+  color: rgba(0, 0, 0, 0.6);
+}
 
 .gallery {
   background-color: rgb(242, 242, 242);
